@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Front-End Course</title>
+</head>
+<body>
+    <!------------------------------NAVBAR------------------------------------>
+    <div class="navbar">
+        <div class="container flex">
+            <h1>Front-end <span>Course.</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!---------------------------------SHOWCASE----------------------------->
+    
+    <section class = "showcase">
+     <div class = "container grid">
+        <div class="showcase-text">
+         <h1>Learn Front-end technologies to build modern website in 2022</h1>
+         <p>This course is structured to providing aspiring developer with the necessary foundation to produce beautiful websites</p>
+         <a href = "faq.html" class="btn btn-outline">Read More</a>
+         </div>
+
+             <div class = "showcase-form card">
+              <h2>Join now</h2>
+                 
+               <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                   <input type="hidden" name="form-name" value="contact">
+                   <p class="hidden">
+                     <label>
+                        Don’t fill this out if you’re human: 
+                         <input name="bot-field" />
+                     </label>
+                  </p>
+               <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="company" placeholder="Company Name" >
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="Send" class="btn">
+            </form>
+                 
+         </div>
+      </div>
+   </section>
+    
+    <!------------------------ FACTS ------------------------------>
+    
+     <section class="facts">
+        <div class="container">
+            <h3>
+                Welcome to the best platform for building applications of all types with modern architecture and scaling
+            </h3>
+
+            <div class="grid grid-facts">
+                <div class="cards">
+                    <i class="fas  fa-video fa-4x"></i>
+                    <h3>72h</h3>
+                    <p class="text-secondary">Video</p>
+                </div>
+                <div class="cards">
+                    <i class="fas fa-book fa-4x"></i>
+                    <h3>10</h3>
+                    <p class="text-secondary">programming Books</p>
+                </div>
+                <div class="cards">
+                    <i class="fas fa-project-diagram fa-4x"></i>
+                    <h3>8</h3>
+                    <p class="text-secondary">Projects</p>
+                </div>
+                <div class="cards">
+                    <i class="fas fa-phone fa-4x"></i>
+                    <h3>24h live</h3>
+                    <p class="text-secondary">Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------------------- TEACHER --------------------------->
+    
+  <section class= "teacher-bg">
+    <div class = "container flex">
+      <div class="text">
+          <div>
+        <h1>Introducing your Teacher, Peter Prises</h1>
+          <p>Peter has over 20 years experience as a Frontend Developer. After enjoying a freelance career that lasted over a decade, Peter’s content has reached millions of people and helped countless individuals establish careers
+       </p>
+        </div>
+
+        <div align="center" class="socialbtns">
+           <ul>
+             <li><a href="#" class="fa fa-lg fa-facebook fa-2x"></a></li>
+             <li><a href="#" class="fa fa-lg fa-twitter fa-2x"></a></li>
+             <li><a href="#" class="fa fa-lg fa-github fa-2x"></a></li>
+             <li><a href="#" class="fa fa-lg fa-linkedin fa-2x"></a></li>
+            <li><a href="#" class="fa fa-lg fa-youtube fa-2x"></a></li>
+         </ul>
+   </div>
+        </div>
+        <div>
+      <img class = "teacher-img" src="images/Peter.jpg" alt="">
+               </div>
+
+      </div>  
+    
+    </section>
+    
+        <!----------COUNTDOWN--------------------------->
+    
+    <div class= "container grid ct">
+        <h1 class="text">Front-end <span>Course</span> begins </h1>
+        <p id="demo" class="countdown"></p>
+    </div>
+    
+    <!--------------------FOOTER--------------------------->
+    
+    <footer class="footer">
+     <div class = "container flex ft">
+         <nav>
+          <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="faq.html">FAQ</a></li>
+             <li><a href="contact.html">Contact</a></li>
+        </ul>
+         </nav>
+            <div>
+                <h1>Front-end <span>Course</span></h1>
+                <p>bulid by Nikolina Tesic &copy;</p>
+          
+         </div>       
+        </div>  
+    </footer>
+    
+  <script src="script.js"></script>
+    
+    
+    
+    </body>
+</html>
